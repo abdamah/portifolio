@@ -192,9 +192,11 @@ const Header: FC = () => {
                   bottomLineScope={bottomLineScope}
                 />
               </div>
-              <Button variant="primary" className="hidden md:inline-flex ">
-                Contact Me
-              </Button>
+              <a onClick={handleClickMobileNavItem} href="#contact">
+                <Button variant="primary" className="hidden md:inline-flex ">
+                  Contact Me
+                </Button>
+              </a>
             </div>
           </div>
         </div>
